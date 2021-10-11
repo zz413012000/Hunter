@@ -1,8 +1,15 @@
 import React from 'react'
+import styled from '@emotion/styled'
+const ArticleTitle=styled.div`
+    font-size:48px
+`
 
-const Container=()=>{
+const Container=(props)=>{
     return(
-        <div></div>
+        <ArticleTitle>
+            Hello
+            {props.childred}
+        </ArticleTitle>
     )
 }
 export default Container
