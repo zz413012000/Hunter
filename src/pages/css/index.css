@@ -1,0 +1,12 @@
+.post{
+    margin-bottom: 10px;
+    padding: 1px 15px;
+    border:1px solid #000;
+    display: block;
+}
+a{
+    color:#000;
+    background-image: unset;
+    text-shadow:none;
+    text-decoration:none;
+}
